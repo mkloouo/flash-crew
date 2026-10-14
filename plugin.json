@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "flash-crew",
+  "description": "Orchestrator plans, Gemini Flash workers do the grunt work. Scoped worker agents, an always-on delegation rule, and a hook that stops subagents from silently inheriting the main model."
+}

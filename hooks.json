@@ -1,0 +1,17 @@
+{
+  "flash-crew-gate": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "invoke_subagent|define_subagent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script hooks/agent_gate.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
